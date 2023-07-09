@@ -242,11 +242,13 @@ img {
   border-color:#d5d5d5 ;
   color: #000000;
   border:2px solid var(--first-color);
-  background-color: #FFE7CC;
   padding: .75rem 2.5rem;
   font-weight: var(--font-semi);
   border-radius: .5rem;
   transition: .3s;
+  background: #ededed;
+  box-shadow:  13px 13px 25px #FFE7CC,
+              -13px -13px 25px #ffffff;
 }
 
 .button:hover {
