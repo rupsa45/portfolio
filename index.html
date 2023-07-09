@@ -8,8 +8,8 @@
         <!-- =====BOX ICONS===== -->
         <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
 
-        <title>Responsive Portfolio </title>
-        <link rel="icon" href="assets/img/icons8-portfolio-16.png" type="image/png">
+        <title>Rupsa2003</title>
+        <link rel="icon" href="assets/img/letter-r.png" type="image/png">
     </head>
     <body>
         <!--===== HEADER =====-->
@@ -69,53 +69,52 @@
             </section>
 
             <!--===== SKILLS =====-->
-            <section class="skills section" id="skills">
-                <h2 class="section-title">Skills</h2>
-
-                <div class="skills__container bd-grid">          
-                    <div>
-                        <h2 class="skills__subtitle">Profesional Skills</h2>
-                        <!-- <p class="skills__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit optio id vero amet, alias architecto consectetur error eum eaque sit.</p> -->
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <i class='bx bxl-html5 skills__icon'></i>
-                                <span class="skills__name">HTML</span>
-                            </div>
-                            <div class="skills__bar skills__html">
-
-                            </div>
-                            <div>
-                                <span class="skills__percentage">80%</span>
-                            </div>
-                        </div>
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <i class='bx bxl-css3 skills__icon'></i>
-                                <span class="skills__name">CSS</span>
-                            </div>
-                            <div class="skills__bar skills__css">
-                                
-                            </div>
-                            <div>
-                                <span class="skills__percentage">65%</span>
-                            </div>
-                        </div>
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <i class='bx bxl-javascript skills__icon' ></i>
-                                <span class="skills__name">JAVASCRIPT</span>
-                            </div>
-                            <div class="skills__bar skills__js">
-                                
-                            </div>
-                            <div>
-                                <span class="skills__percentage">55%</span>
-                            </div>
-                        </div>
-                        </div>
-                    </div>
+            <h2 class="section-title">Skills</h2>
+            <section class="skills" id="skills">
+                <div class="skill">
+                <img src="assets/images/html.png" alt="HTML" />
+                <h3>HTML</h3>
+                <!-- <p>Proficient in writing clean, semantic HTML code.</p> -->
+                </div>
+                <div class="skill">
+                <img src="assets/images/css-3.png" alt="CSS" />
+                <h3>CSS</h3>
+                <!-- <p>Strong understanding of CSS, including Flexbox and Grid layouts.</p> -->
+                </div>
+                <div class="skill">
+                <img src="assets/images/js.png" alt="JavaScript" />
+                <h3>JavaScript</h3>
+                <!-- <p>Experience in building interactive web applications using JavaScript.</p> -->
+                </div>
+            </section>  
+            <section>
+                <div class="skills">
+                <div class="skill">
+                    <img src="assets/images/bootstrap.png" alt="JavaScript" />
+                    <h3>Bootstrap</h3>
+                </div>
+                <div class="skill">
+                    <img src="assets/images/tailwind-css_136619.webp" alt="JavaScript" />
+                    <h3>Tailwind</h3>
+                </div>
                 </div>
             </section>
+            <section>
+                <div class="skills">
+                <div class="skill">
+                    <img src="assets/images/git.png" alt="JavaScript" />
+                    <h3>Gitlab</h3>
+                </div>
+                <div class="skill">
+                    <img src="assets/images/github.png" alt="JavaScript" />
+                    <h3>Github</h3>
+                </div>
+                <div class="skill">
+                    <img src="assets/images/vs-code.ico" alt="JavaScript" />
+                    <h3>VS Code</h3>
+                </div>
+                </div>
+            </section> 
 
             <!--===== WORK =====-->
             <section class="work section" id="work">
@@ -136,7 +135,7 @@
                     </a>
                     <a href="https://scientific-calculater.netlify.app/" target="_blank" class="work__img">
                         <h3> Scientific calculator</h3>
-                        <img src="assets/img/work4.jpg" alt="">
+                        <img src="assets/img/work8.jpg" alt="">
                     </a>
                     <a href="https://text2speaknow.netlify.app/" target="_blank" class="work__img">
                         <h3> text-to-voice</h3>
@@ -158,11 +157,17 @@
                 <h2 class="section-title">Contact</h2>
 
                 <div class="contact__container bd-grid">
-                    <form action="" class="contact__form">
-                        <input type="text" placeholder="Name" class="contact__input">
-                        <input type="mail" placeholder="Email" class="contact__input">
-                        <textarea name="" id=""placeholder="Message" cols="0" rows="10" class="contact__input"></textarea>
-                        <input type="button" value="Send" class="contact__button button">
+                    <form action="https://formsubmit.co/47ae55c38885cbbb9f7aeebc85765b4a" 
+                          method="POST"
+                          class="contact__form"
+                        >
+                        <label class="form-label">Full Name:-</label>
+                        <input type="text" name="Name" placeholder="Name" class="contact__input" required>
+                        <label class="form-label">Email address:-</label>
+                        <input type="email" name="Email" placeholder="Email" class="contact__input" required>
+                        <label class="form-label">Your Message</label>
+                        <textarea name="message" id=""placeholder="Message" cols="0" rows="10" class="contact__input" spellcheck="/" required></textarea>
+                        <button class="contact__button button">Submit</button>
                     </form>
                 </div>
             </section>
