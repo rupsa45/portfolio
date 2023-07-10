@@ -311,6 +311,8 @@ h2{
 }
 .work__img h3{
   color: #007ced;
+  text-align: center;
+  font-family: 'Playfair Display', serif;
 }
 .work__img img {
   transition: 1s;
