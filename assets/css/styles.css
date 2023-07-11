@@ -259,6 +259,7 @@ img {
 .about__text{
   font-family: 'Bacasime Antique', serif;
   font-size: 20px;
+  word-spacing: 3px;
 }
 .about__container {
   row-gap: 2rem;
