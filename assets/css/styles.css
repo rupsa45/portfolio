@@ -14,7 +14,7 @@
   --normal-font-size: .938rem;
   --smaller-font-size: .75rem;
   /*===== Margenes =====*/
-  --mb-2: 1rem;
+  --mb-2: 3rem;
   --mb-4: 2rem;
   --mb-5: 2.5rem;
   --mb-6: 3rem;
@@ -283,16 +283,16 @@ img {
 .skills{
   margin-top: 20px;
   display:flex; 
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 h2{
   font-family: 'Caprasimo', cursive;
 }
 .skill{
-  height: 200px;
+  height: 150px;
 }
 .skill img{
-  width:150px;
+  width:80px;
 }
 .skill h3{
   color: #000;
